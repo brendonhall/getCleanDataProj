@@ -1,6 +1,7 @@
+#Getting and Cleaning Data Class Project
+
 library(dplyr)
 
-#Getting and Cleaning Data course assignment
 #specify the activity labels
 activity_labels = c('WALKING', 'WALKING_UPSTAIRS', 'WALKING_DOWNSTAIRS', 'SITTING', 'STANDING', 'LAYING_DOWN');
 #specify the index of the measurements we want to keep (means and std dev.)
@@ -35,9 +36,9 @@ all_data = rbind(training_data, test_data);
 #replace the activity code with the activity description
 all_data$activity <- activity_labels[all_data$activity];
 
+#group the data by subject and activity
 by_subject <- all_data %>% group_by(subject, activity);
+#take the mean by these groups
 means_grouped <- by_subject %>% summarise_each(funs(mean(., na.rm=TRUE)));
-
-head(means_grouped);
 
 write.table(means_grouped, 'project.txt', row.name=FALSE);
