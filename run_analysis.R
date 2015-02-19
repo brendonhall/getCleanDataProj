@@ -36,6 +36,19 @@ all_data = rbind(training_data, test_data);
 #replace the activity code with the activity description
 all_data$activity <- activity_labels[all_data$activity];
 
+#give the columns readable names
+headers <- names(all_data);
+headers <- gsub('.mean', 'Mean', headers);
+headers <- gsub('.std', 'StdDeviation', headers)
+headers <- gsub('Acc', 'Acceleration', headers)
+#remove the 3 dots before the axis name
+headers <- gsub('...X', 'X', headers)
+headers <- gsub('...Y', 'Y', headers)
+headers <- gsub('...Z', 'Z', headers)
+#remove the trailing '..' characters from some column names
+headers2 <- gsub('[..]', '', headers)
+
+names(all_data) <-headers;
 #group the data by subject and activity
 by_subject <- all_data %>% group_by(subject, activity);
 #take the mean by these groups
