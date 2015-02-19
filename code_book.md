@@ -37,7 +37,8 @@ tGravityAccelerationStdDeviationZ
 tBodyAccelerationJerkMeanX                     
 tBodyAccelerationJerkMeanY                    
 tBodyAccelerationJerkMeanZ
-	Mean of body jerk measurements (derivative of acceleration) in time domain (3 components)Units in g/s (1g = 9.80665 m/s^2)                    
+	Mean of body jerk measurements (derivative of acceleration) in time domain (3 components)
+	Units in g/s (1g = 9.80665 m/s^2)                    
 
 tBodyAccelerationJerkStdDeviationX            
 tBodyAccelerationJerkStdDeviationY             
