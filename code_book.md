@@ -13,14 +13,14 @@ This data set merges the training and test data from the above data set.  Only t
 
 tBodyAccelerationMeanX                         
 tBodyAccelerationMeanY                        
-tBodyAccelerationMeanZ     
-    > Mean of body acceleration measurements in time domain (3 components)
-    > Units in g (1g = 9.80665 m/s^2)
+tBodyAccelerationMeanZ
+  * Mean of body acceleration measurements in time domain (3 components)
+  * Units in g (1g = 9.80665 m/s^2)
 
- tBodyAccelerationStdDeviationX                
- tBodyAccelerationStdDeviationY                 
- tBodyAccelerationStdDeviationZ                
-    Standard deviation of body acceleration measurements in time domain (3 components)
+tBodyAccelerationStdDeviationX
+tBodyAccelerationStdDeviationY
+tBodyAccelerationStdDeviationZ
+  * Standard deviation of body acceleration measurements in time domain (3 components)
 
  
 tGravityAccelerationMeanX                      
