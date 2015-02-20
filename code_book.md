@@ -18,51 +18,69 @@ tBodyAccelerationMeanZ
   - Units in g (1g = 9.80665 m/s^2)
 
 tBodyAccelerationStdDeviationX 
+
 tBodyAccelerationStdDeviationY 
+
 tBodyAccelerationStdDeviationZ 
   * Standard deviation of body acceleration measurements in time domain (3 components)
 
 tGravityAccelerationMeanX
+
 tGravityAccelerationMeanY
+
 tGravityAccelerationMeanZ
   * Mean of gravity acceleration measurements in time domain (3 components)
   * Units in g (1g = 9.80665 m/s^2)
 
 tGravityAccelerationStdDeviationX
+
 tGravityAccelerationStdDeviationY
+
 tGravityAccelerationStdDeviationZ
   * Standard deviation of gravity acceleration measurements in time domain (3 components)             
 
 tBodyAccelerationJerkMeanX
+
 tBodyAccelerationJerkMeanY
+
 tBodyAccelerationJerkMeanZ
   * Mean of body jerk measurements (derivative of acceleration) in time domain (3 components)
   * Units in g/s (1g = 9.80665 m/s^2)                    
 
 tBodyAccelerationJerkStdDeviationX
+
 tBodyAccelerationJerkStdDeviationY
+
 tBodyAccelerationJerkStdDeviationZ
   * Standard deviation of body jerk measurements (derivative of acceleration) in time domain (3 components)
 
 tBodyGyroMeanX
+
 tBodyGyroMeanY
+
 tBodyGyroMeanZ
   * Mean of body angular velocity measurements in time domain (3 components)
   * Units in rad/s                                
 
 tBodyGyroStdDeviationX
+
 tBodyGyroStdDeviationY
+
 tBodyGyroStdDeviationZ
   * Standard deviation of body angular velocity measurements in time domain (3 components)                        
 
 tBodyGyroJerkMeanX
+
 tBodyGyroJerkMeanY
+
 tBodyGyroJerkMeanZ
   * Mean of body angular jerk measurements (derivative of angular velocity) in time domain (3 components)
   * Units in rad/s^2                         
 
 tBodyGyroJerkStdDeviationX
+
 tBodyGyroJerkStdDeviationY
+
 tBodyGyroJerkStdDeviationZ
   * Standard deviation of body jerk measurements in time domain (3 components)                    
 
@@ -98,32 +116,44 @@ tBodyGyroJerkMagnitudeStdDeviation
   * Std. deviation of body angular velocity magnitude measurements (magnitude calculated using Euclidean norm)
 
 fBodyAccelerationMeanX                         
+
 fBodyAccelerationMeanY                        
+
 fBodyAccelerationMeanZ
   * Mean of body acceleration measurements, in frequency domain (3 components)
 
 fBodyAccelerationStdDeviationX                
+
 fBodyAccelerationStdDeviationY                 
+
 fBodyAccelerationStdDeviationZ
   * Std deviation of body acceleration measurements, in frequency domain (3 components)
 
 fBodyAccelerationJerkMeanX                     
+
 fBodyAccelerationJerkMeanY                    
+
 fBodyAccelerationJerkMeanZ
   * Mean of body acceleration jerk measurements, in frequency domain (3 components)
 
 fBodyAccelerationJerkStdDeviationX            
+
 fBodyAccelerationJerkStdDeviationY             
+
 fBodyAccelerationJerkStdDeviationZ
   * Std deviation of body acceleration jerk signal, in frequency domain (3 components)
 
 fBodyGyroMeanX                                 
+
 fBodyGyroMeanY                                
+
 fBodyGyroMeanZ
   * Mean of body angular velocity signal (3 components)
 
 fBodyGyroStdDeviationX                        
+
 fBodyGyroStdDeviationY                         
+
 fBodyGyroStdDeviationZ
   * 8 Std deviation of body angular velocity signal, in frequency domain  (3 components)
 
