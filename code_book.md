@@ -22,15 +22,14 @@ tBodyAccelerationStdDeviationY
 tBodyAccelerationStdDeviationZ
   * Standard deviation of body acceleration measurements in time domain (3 components)
 
- 
-tGravityAccelerationMeanX                      
-tGravityAccelerationMeanY                     
+tGravityAccelerationMeanX
+tGravityAccelerationMeanY
 tGravityAccelerationMeanZ
   * Mean of gravity acceleration measurements in time domain (3 components)
   * Units in g (1g = 9.80665 m/s^2)
 
-tGravityAccelerationStdDeviationX             
-tGravityAccelerationStdDeviationY              
+tGravityAccelerationStdDeviationX
+tGravityAccelerationStdDeviationY
 tGravityAccelerationStdDeviationZ
   * Standard deviation of gravity acceleration measurements in time domain (3 components)             
 
@@ -62,8 +61,8 @@ tBodyGyroJerkMeanZ
   * Mean of body angular jerk measurements (derivative of angular velocity) in time domain (3 components)
   * Units in rad/s^2                         
 
-tBodyGyroJerkStdDeviationX                    
-tBodyGyroJerkStdDeviationY                     
+tBodyGyroJerkStdDeviationX
+tBodyGyroJerkStdDeviationY
 tBodyGyroJerkStdDeviationZ
   * Standard deviation of body jerk measurements in time domain (3 components)                    
 
